@@ -5,7 +5,7 @@
   "description": "Open-source mod which provides custom cosmetics for players.",
   "version": "${version}",
   "mcversion": "${mcversion}",
-  "url": "",
+  "url": "https://github.com/opencosmetics/opencosmetics",
   "updateUrl": "",
   "authorList": ["Princess_Ravy", "E_T_31"],
   "credits": "Sk1er for making ModCore which was very inspiring :D",
