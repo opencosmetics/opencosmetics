@@ -1,4 +1,4 @@
-[![Alt text](./src/main/resources/OCBanner.png)](https://github.com/opencosmetics/opencosmetics)
+[![OpenCosmetics Banner](./src/main/resources/OCBanner.png)](https://github.com/opencosmetics/opencosmetics)
 
 # OpenCosmetics
 
