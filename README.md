@@ -2,7 +2,7 @@
 
 # OpenCosmetics
 
-Open-source mod which provides custom cosmetics for players. 
+Open-source forge mod which provides custom cosmetics for players. 
 
 ## Building
 
