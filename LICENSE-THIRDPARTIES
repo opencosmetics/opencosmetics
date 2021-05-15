@@ -1,3 +1,34 @@
+FML
+------------------------------------------------------------------------------------------------------------------------
+
+This is Forge Mod Loader.
+
+You can find the source code at all times at https://github.com/MinecraftForge/FML
+
+This minecraft mod is a clean open source implementation of a mod loader for minecraft servers
+and minecraft clients.
+
+The code is authored by cpw.
+
+It began by partially implementing an API defined by the client side ModLoader, authored by Risugami.
+http://www.minecraftforum.net/topic/75440-
+This support has been dropped as of Minecraft release 1.7, as Risugami no longer maintains ModLoader.
+
+It also contains suggestions and hints and generous helpings of code from LexManos, author of MinecraftForge.
+http://www.minecraftforge.net/
+
+Additionally, it contains an implementation of topological sort based on that
+published at http://keithschwarz.com/interesting/code/?dir=topological-sort
+
+It also contains code from the Maven project for performing versioned dependency
+resolution. http://maven.apache.org/
+
+It also contains a partial repackaging of the javaxdelta library from http://sourceforge.net/projects/javaxdelta/
+with credit to it's authors.
+
+Forge Mod Loader downloads components from the Minecraft Coder Pack
+(http://mcp.ocean-labs.de/index.php/Main_Page) with kind permission from the MCP team.
+
 Forge Mod Loader, including all parts herein except as noted below,
 is licensed under the GNU LGPL v2.1 or later.
 
@@ -13,7 +44,6 @@ This software contains a partial repackaging of javaxdelta, a BSD licensed progr
 binary differences and applying them, sourced from the subversion at http://sourceforge.net/projects/javaxdelta/
 authored by genman, heikok, pivot.
 The only changes are to replace some Trove collection types with standard Java collections, and repackaged.
-
 
 === MCP Data ===
 This software includes data from the Minecraft Coder Pack (MCP), with kind permission
@@ -489,3 +519,159 @@ SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
 DAMAGES.
 
                      END OF TERMS AND CONDITIONS
+
+
+MinecraftForge
+------------------------------------------------------------------------------------------------------------------------
+
+* Eloraam *
+
+* FlowerChild *
+
+* Hawkye *
+
+* MALfunction84 *
+
+Submitted the sleep handler code for his mod (Somnia) and others to use.
+
+* Scokeev9 *
+
+Gave permission for ScotTools API to be integrated into MCF, and also supported the Forge by converting his mods to use it.
+
+ScotTools Background: ScotTools was an API that enabled modders to add blocks to harvesting levels (and many other ease-of-use features to create new tools), and the first tool API that used block material for block breaking efficiency which allowed blocks from mods that didn't use ScotTools API to break with the correct speed.
+
+* SpaceToad *
+
+* LexManos *
+
+* cpw *
+
+* Minecraft Coder Pack (MCP) *
+Forge Mod Loader and Minecraft Forge have permission to distribute and automatically download components of MCP and distribute MCP data files.
+This permission is not transitive and others wishing to redistribute the Minecraft Forge source independently should seek permission of MCP or
+remove the MCP data files and request their users to download MCP separately.
+
+Minecraft Forge Public Licence
+==============================
+
+Version 1.0
+
+0. Definitions
+--------------
+
+Minecraft: Denotes a copy of the Minecraft game licensed by Mojang AB
+
+User: Anybody that interract with the software in one of the following ways:
+   - play
+   - decompile
+   - recompile or compile
+   - modify
+
+Minecraft Forge: The Minecraft Forge code, in source form, class file form, as
+obtained in a standalone fashion or as part of a wider distribution.
+
+Dependency: Code required to have Minecraft Forge working properly. That can
+include dependencies required to compile the code as well as modifications in
+the Minecraft sources that are required to have Minecraft Forge working.
+
+1. Scope
+--------
+
+The present license is granted to any user of Minecraft Forge, for all files included
+unless stated otherwise in the file itself. As a prerequisite, a user of Minecraft
+Forge must own a legally aquired copy of Minecraft.
+
+2. Play rights
+--------------
+
+The user of Minecraft Forge is allowed to install the software on a client or
+a server and to play it without restriction.
+
+3. Modification rights
+----------------------
+
+The user has the right to decompile the source code, look at either the
+decompiled version or the original source code, and to modify it.
+
+4. Derivation rights
+--------------------
+
+The user has the rights to derive code from Minecraft Forge, that is to say to
+write code that either extends Minecraft Forge class and interfaces,
+instantiate the objects declared or calls the functions. This code is known as
+"derived" code, and can be licensed with conditions different from Minecraft
+Forge.
+
+
+5. Distribution rights
+----------------------
+
+The user of Minecraft Forge is allowed to redistribute Minecraft Forge in
+partially, in totallity, or included in a distribution. When distributing
+binaries or class files, the user must provide means to obtain the sources of
+the distributed version of Minecraft Forge at no costs. This includes the
+files as well as any dependency that the code may rely on, including patches to
+minecraft original sources.
+
+Modification of Minecraft Forge as well as dependencies, including patches to
+minecraft original sources, has to remain under the terms of the present
+license.
+
+The right to distribute Minecraft Forge does not extend to the right to distribute
+MCP data files included within Minecraft Forge. These are the property of the MCP
+project and should be removed from any customized distribution of Minecraft Forge
+or permission sought separately from the MCP team.
+
+Paulscode
+------------------------------------------------------------------------------------------------------------------------
+
+IBXM is copyright (c) 2007, Martin Cameron, and is licensed under the BSD License.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Neither the name of mumart nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+SoundSystem CodecIBXM Class License:
+
+You are free to use this class for any purpose, commercial or otherwise.
+You may modify this class or source code, and distribute it any way you
+like, provided the following conditions are met:
+
+1) You may not falsely claim to be the author of this class or any
+   unmodified portion of it.
+2) You may not copyright this class or a modified version of it and then
+   sue me for copyright infringement.
+3) If you modify the source code, you must clearly document the changes
+   made before redistributing the modified source code, so other users know
+   it is not the original code.
+4) You are not required to give me credit for this class in any derived
+   work, but if you do, you must also mention my website:
+   http://www.paulscode.com
+5) I the author will not be responsible for any damages (physical,
+   financial, or otherwise) caused by the use if this class or any
+   portion of it.
+6) I the author do not guarantee, warrant, or make any representations,
+   either expressed or implied, regarding the use of this class or any
+   portion of it.
+
+Author: Paul Lamb
+http://www.paulscode.com
+
+
+This software is based on or using the IBXM library available from
+http://www.geocities.com/sunet2000/
+
+
+IBXM is copyright (c) 2007, Martin Cameron, and is licensed under the BSD License.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+
+Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
+Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.
+Neither the name of mumart nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
