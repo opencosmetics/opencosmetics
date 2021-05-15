@@ -8,8 +8,8 @@
   "url": "https://github.com/opencosmetics/opencosmetics",
   "updateUrl": "",
   "authorList": ["Princess_Ravy", "E_T_31"],
-  "credits": "Sk1er for making ModCore which was very inspiring :D",
-  "logoFile": "",
+  "credits": "Sk1er for making ModCore which was very inspiring; Andrew Paglinawan for Quicksand, the font in our logo",
+  "logoFile": "OCBannerTransparent.png",
   "screenshots": [],
   "dependencies": []
 }
